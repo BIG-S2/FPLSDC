@@ -11,5 +11,5 @@ This package consists of five functions: fpls_dc and ifpls_dc are the FPLS-DC al
 
 5. fplsdc_test_gwas: GWAS test of independence for functional partial least squares through distance covariance(FPLS-DC). The null distribution of the statistic is approximated by the gamma distribution, and the scalar and shape parameters are approximated by modifying the referred scalar and shape parameters. These parameters are obtained through a permutation procedure on a referred data set (X1, Y). The probability of X1 being 0, 1, or 2 is 1/3. Y represents the high-dimensional neuroimaging data in the real dataset.
 
-The other details can be found in Wenliang Pan, Yue Shan, Chuang Li, Shuai Huang, Tengfei Li, Yun Li, and Hongtu Zhu, 2023, to appear. FPLS-DC: Functional partial least squares through distance covariance for imaging genetics.
+The other details can be found in Wenliang Pan, Yue Shan, Chuang Li, Shuai Huang, Tengfei Li, Yun Li, and Hongtu Zhu, 2023. FPLS-DC: Functional partial least squares through distance covariance for imaging genetics.
 
