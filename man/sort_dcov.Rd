@@ -23,6 +23,7 @@ components of \code{X}.
 \examples{
 library(FPLSDC)
 library(energy)
+library(FPLSDC)
 n <- 200
   feature_num <- 50
   sigma_sqrt <- matrix(NA,feature_num,feature_num)
