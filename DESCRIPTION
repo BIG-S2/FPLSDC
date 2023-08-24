@@ -1,15 +1,13 @@
 Package: FPLSDC
 Type: Package
-Title: FPLS-DC: Functional partial least squares through distance
-        covariance for imaging genetics
+Title: FPLS-DC: Functional partial least squares through distance covariance for imaging genetics
 Version: 0.1.0
 Author: Chuang Li
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: my tools of R to deal with FPLS-DC
 License: What license is it under?
 Encoding: UTF-8
+LazyData: true
 Imports: Rcpp,energy
 LinkingTo: Rcpp, RcppEigen
 RoxygenNote: 7.2.3
-NeedsCompilation: yes
-Packaged: 2023-07-15 09:13:18 UTC; chuan
