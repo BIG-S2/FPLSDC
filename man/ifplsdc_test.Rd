@@ -14,8 +14,8 @@ ifplsdc_test(X,Y,index.num = NULL, per.num = 50, fpls_index = NULL)
 \arguments{
   \item{X}{A numeric matrix, or dataframe. Each column is an observation vector.}
   \item{Y}{A numeric matrix, or dataframe.}
-  \item{index.num}{The index vector of variable for testing. If index.num = -1, the function return the p.value of all variables.}
-  \item{per.num}{Number of permutation for the estimation of scalar and shape parameter of gamma distribution.}
+  \item{index.num}{The index vector of variable for testing. If \code{index.num} = NULL, the function return the p.value of all variables.}
+  \item{per.num}{Number of permutation replications for the estimation of scalar and shape parameter of gamma distribution.}
   \item{fpls_index}{The index of the selected variables. If \code{fpls_index} = NULL, the \code{fpls_index} is firstly determined by IFPLS-DC procedure.}
 }
 \details{
@@ -40,6 +40,7 @@ ifplsdc_test(X,Y,index.num = NULL, per.num = 50, fpls_index = NULL)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+library(MASS)
 library(FPLSDC)
 ### Independent case
 X <- matrix(rnorm(100*50),100,50)

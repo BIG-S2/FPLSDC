@@ -14,7 +14,7 @@ fplsdc_test(X,Y,index.num = NULL,per.num = 50)
   \item{X}{A numeric matrix, or dataframe. Each column is an observation vector.}
   \item{Y}{A numeric matrix, or dataframe.}
   \item{index.num}{The index vector of variable for testing. If \code{index.num} = NULL, the function return the p.value of all variables.}
-  \item{per.num}{Number of permutation for the estimation of scalar and shape parameter of gamma distribution.}
+  \item{per.num}{Number of permutation replications for the estimation of scalar and shape parameter of gamma distribution.}
 }
 
 \value{
@@ -36,6 +36,7 @@ fplsdc_test(X,Y,index.num = NULL,per.num = 50)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+library(MASS)
 library(FPLSDC)
   n <- 200
   feature_num <- 50
